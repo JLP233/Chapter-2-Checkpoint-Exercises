@@ -2,9 +2,14 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello Class!\n";
+	char first, middle, last;
+	first = 'J';
+	middle = 'L';
+	last = 'P';
+	cout << first << middle << last;
+	return 0;
 }
 
