@@ -1,10 +1,11 @@
-// Chapter 2 Checkpoint Exercisese.cpp : There are three programs in this project, each on a seperate branch. 
-//
-
 #include <iostream>
-
+using namespace std;
 int main()
 {
-    std::cout << "Hello Class!\n";
+	int age = 25;
+	double weight = 190;
+	cout << "My age is "  << age << " and my weight is " << weight <<
+		endl;
+	return 0;
 }
 
